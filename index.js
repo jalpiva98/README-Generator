@@ -44,6 +44,16 @@ inquirer
           'Other',
           'None',
         ],
+      },
+      {
+        type: 'input',
+        message: 'Please provide instructions to try out your app', 
+        name: 'test',
+      }, 
+      {
+        type: 'input',
+        message: 'How could someone reach u?', 
+        name: 'contact',
       }, 
   ])
 
